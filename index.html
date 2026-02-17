@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MainCrafts | Build Smarter</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">MainCrafts</div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li>
+                <a href="#">Services ▾</a>
+                <div class="dropdown">
+                    <a href="#">Web Development</a>
+                    <a href="#">App Development</a>
+                    <a href="#">UI/UX Design</a>
+                </div>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>Build Smarter with MainCrafts</h1>
+        <p>Innovative solutions for modern businesses. Fast. Responsive. Scalable.</p>
+        <button>Get Started</button>
+    </div>
+</section>
+
+<section class="features">
+    <h2>Our Features</h2>
+    <div class="feature-container">
+        <div class="card">
+            <i class="fas fa-bolt"></i>
+            <h3>Fast Performance</h3>
+            <p>Optimized websites ensuring lightning-fast load speed.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Responsive Design</h3>
+            <p>Fully adaptable layouts for mobile, tablet & desktop.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-expand-arrows-alt"></i>
+            <h3>Scalable</h3>
+            <p>Built to grow with your business and future needs.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Secure</h3>
+            <p>High-level security implementation for safe platforms.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 MainCrafts | 
+        <a href="#">Privacy Policy</a> | 
+        <a href="#">Terms</a> | 
+        <a href="mailto:hr@maincrafts.com">Contact</a>
+    </p>
+    <p>www.maincrafts.com</p>
+</footer>
+
+<script>
+function toggleMenu(){
+    document.getElementById("menu").classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
